@@ -29,6 +29,11 @@ app.use(passport.initialize());
 
 var router = express.Router();
 
+// create endpoint handlers for /clients
+router.route('/clients')
+    .post()
+    .get();
+
 // register log4js
 log.use(app);
 
