@@ -1,0 +1,21 @@
+{
+  "name": "accountmanage-server",
+  "version": "0.1.0",
+  "description": "account manage by restful api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zwg",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "log4js": "^1.0.1",
+    "mongoose": "^4.7.1",
+    "passport": "^0.3.2",
+    "path": "^0.12.7"
+  }
+}
